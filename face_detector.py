@@ -8,8 +8,8 @@ image = face_recognition.load_image_file("sample_image.jpeg")
 face_encoding = face_recognition.face_encodings(image)[0]
 
 known_faces = [
-				face_encoding,
-				]
+		face_encoding,
+		]
 face_locations = []
 face_encodings = []
 face_names = []
